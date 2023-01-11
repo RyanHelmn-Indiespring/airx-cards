@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/airx-cards/static/css/main.2d9cae2d.css",
-    "main.js": "/airx-cards/static/js/main.60eb434f.js",
+    "main.css": "/airx-cards/static/css/main.e6c61a11.css",
+    "main.js": "/airx-cards/static/js/main.f6c1ab8b.js",
     "static/js/787.67fe4c0a.chunk.js": "/airx-cards/static/js/787.67fe4c0a.chunk.js",
+    "static/media/wheelchair.svg": "/airx-cards/static/media/wheelchair.091b039c9615b805c3cae8d4110af1f2.svg",
     "index.html": "/airx-cards/index.html",
-    "main.2d9cae2d.css.map": "/airx-cards/static/css/main.2d9cae2d.css.map",
-    "main.60eb434f.js.map": "/airx-cards/static/js/main.60eb434f.js.map",
+    "static/media/plane.svg": "/airx-cards/static/media/plane.0874b695244d62dce2db02b87e5fe05e.svg",
+    "main.e6c61a11.css.map": "/airx-cards/static/css/main.e6c61a11.css.map",
+    "main.f6c1ab8b.js.map": "/airx-cards/static/js/main.f6c1ab8b.js.map",
     "787.67fe4c0a.chunk.js.map": "/airx-cards/static/js/787.67fe4c0a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d9cae2d.css",
-    "static/js/main.60eb434f.js"
+    "static/css/main.e6c61a11.css",
+    "static/js/main.f6c1ab8b.js"
   ]
 }
