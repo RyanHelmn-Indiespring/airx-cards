@@ -1,26 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { createDetailsWidget } from "@livechat/agent-app-sdk";
 import PlaneImage from "./images/plane.svg";
 import WheelchairImage from "./images/wheelchair.svg";
 import { Loader } from "./components/Loader";
 
 function App() {
-  const [profile, setProfile] = useState<{}>();
-  const [error, setError] = useState<string>();
+  const [profile, setProfile] = useState<{} | undefined>();
+  const [error, setError] = useState<string | undefined>();
 
-  createDetailsWidget()
-    .then((widget) => {
+  useEffect(() => {
+    async function createWidget() {
+      const widget = await createDetailsWidget();
+
       widget.on("customer_profile", (profile) => {
-        if (profile.source !== "chats") {
-          return <h1>Can't fetch booking information outside of chat...</h1>;
-        }
-
         setProfile(profile);
       });
-    })
-    .catch(() => {
-      setError("Unable to load booking information");
-    });
+    }
+
+    createWidget();
+  }, []);
 
   return (
     <div className="flex flex-col gap-y-4 justify-center items-center py-10 px-2">
