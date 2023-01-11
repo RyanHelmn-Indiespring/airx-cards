@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RyanHelmn-Indiespring/airx-cards/static/css/main.2d9cae2d.css",
-    "main.js": "/RyanHelmn-Indiespring/airx-cards/static/js/main.894e249d.js",
-    "static/js/787.67fe4c0a.chunk.js": "/RyanHelmn-Indiespring/airx-cards/static/js/787.67fe4c0a.chunk.js",
-    "index.html": "/RyanHelmn-Indiespring/airx-cards/index.html",
-    "main.2d9cae2d.css.map": "/RyanHelmn-Indiespring/airx-cards/static/css/main.2d9cae2d.css.map",
-    "main.894e249d.js.map": "/RyanHelmn-Indiespring/airx-cards/static/js/main.894e249d.js.map",
-    "787.67fe4c0a.chunk.js.map": "/RyanHelmn-Indiespring/airx-cards/static/js/787.67fe4c0a.chunk.js.map"
+    "main.css": "/airx-cards/static/css/main.2d9cae2d.css",
+    "main.js": "/airx-cards/static/js/main.60eb434f.js",
+    "static/js/787.67fe4c0a.chunk.js": "/airx-cards/static/js/787.67fe4c0a.chunk.js",
+    "index.html": "/airx-cards/index.html",
+    "main.2d9cae2d.css.map": "/airx-cards/static/css/main.2d9cae2d.css.map",
+    "main.60eb434f.js.map": "/airx-cards/static/js/main.60eb434f.js.map",
+    "787.67fe4c0a.chunk.js.map": "/airx-cards/static/js/787.67fe4c0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d9cae2d.css",
-    "static/js/main.894e249d.js"
+    "static/js/main.60eb434f.js"
   ]
 }
