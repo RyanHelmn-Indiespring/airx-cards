@@ -4,10 +4,15 @@ import PlaneImage from "./images/plane.svg";
 import WheelchairImage from "./images/wheelchair.svg";
 
 function App() {
-  // createDetailsWidget().then((widget) => {
-  //   widget.on("customer_profile", (profile) => {
-  //   });
-  // });
+  createDetailsWidget().then((widget) => {
+    widget.on("customer_profile", (profile) => {
+      if (profile.source !== "chats") {
+        return <h1>Can't fetch booking information outside of chat...</h1>;
+      }
+
+      console.log(profile);
+    });
+  });
 
   return (
     <div className="flex flex-col gap-y-4 justify-center items-center py-10 px-2">
