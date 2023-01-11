@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/airx-cards/static/css/main.3cce5f0e.css",
-    "main.js": "/airx-cards/static/js/main.edff2773.js",
+    "main.js": "/airx-cards/static/js/main.d8d248c1.js",
     "static/js/787.67fe4c0a.chunk.js": "/airx-cards/static/js/787.67fe4c0a.chunk.js",
     "static/media/wheelchair.svg": "/airx-cards/static/media/wheelchair.091b039c9615b805c3cae8d4110af1f2.svg",
     "index.html": "/airx-cards/index.html",
     "static/media/plane.svg": "/airx-cards/static/media/plane.0874b695244d62dce2db02b87e5fe05e.svg",
     "main.3cce5f0e.css.map": "/airx-cards/static/css/main.3cce5f0e.css.map",
-    "main.edff2773.js.map": "/airx-cards/static/js/main.edff2773.js.map",
+    "main.d8d248c1.js.map": "/airx-cards/static/js/main.d8d248c1.js.map",
     "787.67fe4c0a.chunk.js.map": "/airx-cards/static/js/787.67fe4c0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cce5f0e.css",
-    "static/js/main.edff2773.js"
+    "static/js/main.d8d248c1.js"
   ]
 }
