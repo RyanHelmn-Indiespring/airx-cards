@@ -17,7 +17,7 @@
     "typescript": "*",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://github.com/RyanHelmn-Indiespring/airx-cards/",
+  "homepage": "https://RyanHelmn-Indiespring.github.io/airx-cards/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
