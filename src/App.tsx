@@ -10,7 +10,7 @@ function App() {
   // });
 
   return (
-    <div className="flex flex-col gap-y-4 justify-center items-center p-10">
+    <div className="flex flex-col gap-y-4 justify-center items-center py-10 px-2">
       <div className="max-w-[343px] w-full">
         <div className="bg-black w-full rounded-tl-[20px] rounded-tr-[20px] h-5"></div>
         <div className="bg-light-grey py-6 px-4 flex flex-col gap-y-6 rounded-bl-[20px] rounded-br-[20px]">
