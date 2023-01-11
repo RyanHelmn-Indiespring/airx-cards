@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { createDetailsWidget } from "@livechat/agent-app-sdk";
 
 function App() {
+  const [name, setName] = useState("");
+
+  createDetailsWidget().then((widget) => {
+    widget.on("customer_profile", (profile) => {
+      setName(profile.name);
+    });
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex justify-center items-center p-10">
+      <h1>{name}</h1>
     </div>
   );
 }
