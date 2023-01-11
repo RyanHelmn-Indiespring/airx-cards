@@ -4,13 +4,15 @@ import PlaneImage from "./images/plane.svg";
 import WheelchairImage from "./images/wheelchair.svg";
 
 function App() {
+  const [profile, setProfile] = useState({});
+
   createDetailsWidget().then((widget) => {
     widget.on("customer_profile", (profile) => {
       if (profile.source !== "chats") {
         return <h1>Can't fetch booking information outside of chat...</h1>;
       }
 
-      console.log(profile);
+      setProfile(profile);
     });
   });
 
@@ -101,6 +103,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      {JSON.stringify(profile)}
     </div>
   );
 }
