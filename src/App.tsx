@@ -14,6 +14,7 @@ function App() {
 
       widget.on("customer_profile", (profile) => {
         setProfile(profile);
+        console.log(profile);
       });
     }
 
