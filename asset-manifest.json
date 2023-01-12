@@ -1,17 +1,30 @@
 {
   "files": {
-    "main.css": "/airx-cards/static/css/main.3cce5f0e.css",
-    "main.js": "/airx-cards/static/js/main.3f80acf8.js",
+    "main.css": "/airx-cards/static/css/main.a191a87a.css",
+    "main.js": "/airx-cards/static/js/main.6c054f09.js",
     "static/js/787.67fe4c0a.chunk.js": "/airx-cards/static/js/787.67fe4c0a.chunk.js",
+    "static/media/mex.svg": "/airx-cards/static/media/mex.2e464461587a3ca0dd1f230906c3f57a.svg",
+    "static/media/esp.svg": "/airx-cards/static/media/esp.20fa627aa3f3eb4d47a637d31c645d94.svg",
+    "static/media/br.svg": "/airx-cards/static/media/br.d46862ead8db37d7a9e272d1d03a5c5a.svg",
+    "static/media/us.svg": "/airx-cards/static/media/us.25baa8f5e476cb436e9d6cef86cee24e.svg",
     "static/media/wheelchair.svg": "/airx-cards/static/media/wheelchair.091b039c9615b805c3cae8d4110af1f2.svg",
+    "static/media/ind.svg": "/airx-cards/static/media/ind.d212caf228ec4f5f5e6fedf9d2d86755.svg",
+    "static/media/kr.svg": "/airx-cards/static/media/kr.b3f05a7fa9611673c82c31e6df139709.svg",
     "index.html": "/airx-cards/index.html",
+    "static/media/cn.svg": "/airx-cards/static/media/cn.890ef6a654b865eea03306b076c178f9.svg",
     "static/media/plane.svg": "/airx-cards/static/media/plane.0874b695244d62dce2db02b87e5fe05e.svg",
-    "main.3cce5f0e.css.map": "/airx-cards/static/css/main.3cce5f0e.css.map",
-    "main.3f80acf8.js.map": "/airx-cards/static/js/main.3f80acf8.js.map",
+    "static/media/uk.svg": "/airx-cards/static/media/uk.598bcdeaa54ae755d6ca943372fc7c31.svg",
+    "static/media/jp.svg": "/airx-cards/static/media/jp.f18d8b3b36ef79c841a4bf4c465775f9.svg",
+    "static/media/fr.svg": "/airx-cards/static/media/fr.e99e98c4fe05cf48c42af21817f24590.svg",
+    "static/media/ru.svg": "/airx-cards/static/media/ru.d3f34deff3e32c9a2eb7ca8b1f190a18.svg",
+    "static/media/uae.svg": "/airx-cards/static/media/uae.6f5fc5a6fd5b82092a0806d9e9285bf7.svg",
+    "static/media/de.svg": "/airx-cards/static/media/de.9a1c2d828656ce28393f389e0a55e374.svg",
+    "main.a191a87a.css.map": "/airx-cards/static/css/main.a191a87a.css.map",
+    "main.6c054f09.js.map": "/airx-cards/static/js/main.6c054f09.js.map",
     "787.67fe4c0a.chunk.js.map": "/airx-cards/static/js/787.67fe4c0a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cce5f0e.css",
-    "static/js/main.3f80acf8.js"
+    "static/css/main.a191a87a.css",
+    "static/js/main.6c054f09.js"
   ]
 }
