@@ -4,6 +4,7 @@ import PlaneImage from "./images/plane.svg";
 import WheelchairImage from "./images/wheelchair.svg";
 import { Loader } from "./components/Loader";
 import { ChatBookingDetails } from "./models/ChatBookingDetails";
+import { getFlag } from "./helpers/FlagHelper";
 
 function App() {
   const [bookingDetails, setBookingDetails] = useState<
@@ -23,9 +24,11 @@ function App() {
           flightType: customVariables.flightType,
           fromDestinationAirport: customVariables.fromDestinationAirport,
           fromDestinationCity: customVariables.fromDestinationCity,
+          fromDestinationCountry: customVariables.fromDestinationCountry,
           fromPassengers: customVariables.fromPassengers,
           toDestinationAirport: customVariables.toDestinationAirport,
           toDestinationCity: customVariables.toDestinationCity,
+          toDestinationCountry: customVariables.toDestinationCountry,
           departureDate: new Date(customVariables.departureDate),
           fromSpecialRequirements: customVariables.fromSpecialRequirements,
           returnDate: customVariables.returnDate
@@ -63,6 +66,11 @@ function App() {
 
               <div className="flex justify-between items-center relative">
                 <div>
+                  {bookingDetails?.fromDestinationCountry && (
+                    <div className="w-[48px]">
+                      {getFlag(bookingDetails?.fromDestinationCountry)}
+                    </div>
+                  )}
                   <span className="uppercase text-2xl">
                     {bookingDetails?.fromDestinationAirport}
                   </span>
@@ -76,6 +84,11 @@ function App() {
                 </div>
 
                 <div>
+                  {bookingDetails?.toDestinationCountry && (
+                    <div className="w-[48px]">
+                      {getFlag(bookingDetails?.toDestinationCountry)}
+                    </div>
+                  )}
                   <span className="uppercase text-2xl text-right">
                     {bookingDetails?.toDestinationAirport}
                   </span>
