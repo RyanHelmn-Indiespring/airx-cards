@@ -21,6 +21,7 @@ function App() {
       widget.on("customer_profile", (profile) => {
         // @ts-ignore
         const customVariables = profile.customVariables;
+        console.log(customVariables);
 
         setBookingDetails({
           flightType: customVariables.flightType,
