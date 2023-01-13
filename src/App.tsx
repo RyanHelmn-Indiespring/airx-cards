@@ -24,26 +24,30 @@ function App() {
         console.log(customVariables);
 
         setBookingDetails({
-          flightType: customVariables.flightType,
-          fromDestinationAirport: customVariables.fromDestinationAirport,
-          fromDestinationCity: customVariables.fromDestinationCity,
-          fromDestinationCountry: customVariables.fromDestinationCountry,
-          fromPassengers: customVariables.fromPassengers,
-          toDestinationAirport: customVariables.toDestinationAirport,
-          toDestinationCity: customVariables.toDestinationCity,
-          toDestinationCountry: customVariables.toDestinationCountry,
-          departureDate: new Date(customVariables.departureDate),
-          fromSpecialRequirements: customVariables.fromSpecialRequirements,
+          flightType: customVariables.flightType.toString(),
+          fromDestinationAirport:
+            customVariables.fromDestinationAirport.toString(),
+          fromDestinationCity: customVariables.fromDestinationCity.toString(),
+          fromDestinationCountry:
+            customVariables.fromDestinationCountry.toString(),
+          fromPassengers: customVariables.fromPassengers.toString(),
+          toDestinationAirport: customVariables.toDestinationAirport.toString(),
+          toDestinationCity: customVariables.toDestinationCity.toString(),
+          toDestinationCountry: customVariables.toDestinationCountry.toString(),
+          departureDate: new Date(customVariables.departureDate.toString()),
+          fromSpecialRequirements: customVariables.fromSpecialRequirements
+            .toString()
+            .split(","),
           returnDate: customVariables.returnDate
-            ? new Date(customVariables.returnDate)
+            ? new Date(customVariables.returnDate.toString())
             : undefined,
-          toPassengers: customVariables.toPassengers ?? undefined,
-          name: customVariables.name,
-          phoneNumber: customVariables.phoneNumber,
-          emailAddress: customVariables.emailAddress,
+          toPassengers: customVariables.toPassengers?.toString() ?? undefined,
+          name: customVariables.name.toString(),
+          phoneNumber: customVariables.phoneNumber.toString(),
+          emailAddress: customVariables.emailAddress.toString(),
           behalfOfSomeoneElse: customVariables.behalfOfSomeoneElse,
           flexibleDate: customVariables.flexibleDate,
-          budget: customVariables.budget,
+          budget: customVariables.budget.toString(),
         });
       });
     }
