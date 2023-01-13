@@ -8,7 +8,13 @@ export interface ChatBookingDetails {
   toDestinationCity: string;
   toDestinationCountry: string;
   departureDate: Date;
-  fromSpecialRequirements: string;
+  fromSpecialRequirements: string[];
   returnDate?: Date;
+  flexibleDate: boolean;
+  budget: string;
   toPassengers?: string;
+  name: string;
+  phoneNumber: string;
+  emailAddress: string;
+  behalfOfSomeoneElse: boolean;
 }
