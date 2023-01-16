@@ -60,11 +60,19 @@ function App() {
   }, []);
 
   function sendBookingInformation() {
-    if (!widgetRef) {
+    if (!widgetRef || !bookingDetails) {
       return;
     }
 
-    widgetRef?.putMessage("Multiline \n Test");
+    let bookingDetailsMessage = "";
+    for (const [key, value] of Object.entries(bookingDetails)) {
+      let title = key.replace(/([A-Z])/g, " $1");
+      title = title.charAt(0).toUpperCase() + title.slice(1);
+
+      bookingDetailsMessage += `${title}: ${value} \n`;
+    }
+
+    widgetRef?.putMessage(bookingDetailsMessage);
   }
 
   const timeOptions = {
