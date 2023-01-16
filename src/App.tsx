@@ -49,8 +49,8 @@ function App() {
           name: customVariables.name.toString(),
           phoneNumber: customVariables.phoneNumber.toString(),
           emailAddress: customVariables.emailAddress.toString(),
-          behalfOfSomeoneElse: customVariables.behalfOfSomeoneElse,
-          flexibleDate: customVariables.flexibleDate,
+          behalfOfSomeoneElse: customVariables.behalfOfSomeoneElse === "Yes",
+          flexibleDate: customVariables.flexibleDate === "Yes",
           budget: customVariables.budget.toString(),
         });
       });
