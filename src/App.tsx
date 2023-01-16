@@ -47,7 +47,7 @@ function App() {
             : undefined,
           toPassengers: customVariables.toPassengers?.toString() ?? undefined,
           name: customVariables.name.toString(),
-          phoneNumber: customVariables.phoneNumber.toString(),
+          phoneNumber: customVariables.phoneNumber?.toString(),
           emailAddress: customVariables.emailAddress.toString(),
           behalfOfSomeoneElse: customVariables.behalfOfSomeoneElse === "Yes",
           flexibleDate: customVariables.flexibleDate === "Yes",
