@@ -64,7 +64,7 @@ function App() {
       return;
     }
 
-    widgetRef?.putMessage("");
+    widgetRef?.putMessage("Multiline \n Test");
   }
 
   const timeOptions = {
