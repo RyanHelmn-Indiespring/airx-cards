@@ -22,7 +22,7 @@ function App() {
         // @ts-ignore
         const customVariables = profile.customVariables;
 
-        if (!customVariables) {
+        if (Object.keys(customVariables).length === 0) {
           setError("No booking information supplied.");
           return;
         }
