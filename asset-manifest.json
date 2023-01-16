@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/airx-cards/static/css/main.13a44531.css",
-    "main.js": "/airx-cards/static/js/main.c5296aed.js",
+    "main.js": "/airx-cards/static/js/main.995f0ceb.js",
     "static/js/787.67fe4c0a.chunk.js": "/airx-cards/static/js/787.67fe4c0a.chunk.js",
     "static/media/mex.svg": "/airx-cards/static/media/mex.2e464461587a3ca0dd1f230906c3f57a.svg",
     "static/media/esp.svg": "/airx-cards/static/media/esp.20fa627aa3f3eb4d47a637d31c645d94.svg",
@@ -24,11 +24,11 @@
     "static/media/uae.svg": "/airx-cards/static/media/uae.6f5fc5a6fd5b82092a0806d9e9285bf7.svg",
     "static/media/de.svg": "/airx-cards/static/media/de.9a1c2d828656ce28393f389e0a55e374.svg",
     "main.13a44531.css.map": "/airx-cards/static/css/main.13a44531.css.map",
-    "main.c5296aed.js.map": "/airx-cards/static/js/main.c5296aed.js.map",
+    "main.995f0ceb.js.map": "/airx-cards/static/js/main.995f0ceb.js.map",
     "787.67fe4c0a.chunk.js.map": "/airx-cards/static/js/787.67fe4c0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13a44531.css",
-    "static/js/main.c5296aed.js"
+    "static/js/main.995f0ceb.js"
   ]
 }
