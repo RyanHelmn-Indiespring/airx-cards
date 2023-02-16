@@ -40,8 +40,8 @@ function App() {
           toDestinationCountry: customVariables.toDestinationCountry.toString(),
           departureDate: new Date(customVariables.departureDate.toString()),
           fromSpecialRequirements: customVariables.fromSpecialRequirements
-            .toString()
-            .split(","),
+            ? customVariables.fromSpecialRequirements.toString().split(",")
+            : undefined,
           returnDate: customVariables.returnDate
             ? new Date(customVariables.returnDate.toString())
             : undefined,
