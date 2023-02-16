@@ -150,7 +150,7 @@ function App() {
                     <span className="uppercase text-sm text-white">{`${bookingDetails?.fromPassengers} Pax`}</span>
                   </div>
 
-                  {bookingDetails?.fromSpecialRequirements && (
+                  {bookingDetails?.fromSpecialRequirements?.length && (
                     <>
                       {bookingDetails.fromSpecialRequirements.map(
                         (requirement) => (
@@ -225,7 +225,7 @@ function App() {
                       <span className="uppercase text-sm text-white">{`${bookingDetails.toPassengers} Pax`}</span>
                     </div>
 
-                    {bookingDetails?.fromSpecialRequirements && (
+                    {bookingDetails?.fromSpecialRequirements?.length && (
                       <>
                         {bookingDetails.fromSpecialRequirements.map(
                           (requirement) => (
